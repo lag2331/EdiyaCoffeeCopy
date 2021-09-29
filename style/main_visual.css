@@ -1,0 +1,8 @@
+.main_visual {
+    width: 100%;
+    min-height: 620px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    overflow: hidden;
+}

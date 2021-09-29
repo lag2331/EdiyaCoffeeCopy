@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css); 
+/* 폰트 Weight ExL 100, L 300, R 400, M 500, B 700, H 900 */
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900');
+/* 폰트 Weight ExL 200, L 300, R 400, SeB 600, B 700, ExB 800, BK 900 */
+
+body, html{width:100%; height:100%; background-color:#FFFFFF; min-width:320px;}
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0px; padding:0px;}
+body,input,textarea,select,table,a,p{font-family:'Noto Sans KR', '나눔고딕', NanumGothic, '맑은 고딕', MalgunGothic, '돋움', Dotum, sans-serif; font-size:13px; color:#464646; line-height:1.7em;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+img,fieldset{border:0px; vertical-align:top;}
+ul,ol,dl{list-style-type:none;}
+a{text-decoration:none; color:#464646;}
+caption, legend{border:0px; display:none;}
+em{font-weight:bold; font-style:normal;}
+table{width:100%; border:0; border-collapse:collapse;}
+button,html input[type='button'],input[type='submit'],input[type='reset'],input[type='file'] {-webkit-appearance:button}
+div{display: block;}
+
+@font-face{font-family:NS;
+src:url('../font/NanumSquare.eot');
+src:local('☺'), url('../font/NanumSquare.woff') format('woff');
+font-style:normal;}
+
+.nunito{font-family:'Nunito Sans', sans-serif;}
+.ns{font-family:'나눔스퀘어', NanumSquare, NS, '맑은 고딕', MalgunGothic, '돋움', Dotum;}
+.blind{display:block; overflow:hidden; position:absolute; left:-9999px; width:1px; height:1px; font-size:0; line-height:0; text-indent:-9999px;}
+input[type="search"]{-webkit-appearance:textfield; box-sizing:content-box; outline:none;} /*web chorome,safari remove border*/
+.float_clear:after{display:block; clear:both; content:"";}
+.main_btn a{width: 188px;height: 42px;display: inline-block;border: solid 1px #FFFFFF;color: #FFF;font-size: 15px;font-weight: 500;margin: 0 3px 0 4px;line-height: 42px;text-align: center;}
+.main_btn a:hover{background-color: #FFFFFF;color: #000000;}

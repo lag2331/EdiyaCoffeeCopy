@@ -1,0 +1,10 @@
+.main_block03{
+    max-width: 1180px;
+    height: 800px;
+    margin: 0 auto;
+    padding-bottom: 0;
+    background-position: bottom;
+    position: relative;
+    background-size: cover;
+    word-break: keep-all;
+}

@@ -1,0 +1,50 @@
+.main_block01{
+    width: 100%;
+    height: 500px;
+    padding-bottom: 0;
+    background-position: bottom;
+    position: relative;
+    background: url(../images/main_block01/block01_bg.jpg) no-repeat;
+    background-size: cover;
+    word-break: keep-all;
+}
+
+.main_block01 h2{
+    width: 100%;
+    height: 98px;
+    font-size: 42px;
+    padding-top: 112px;
+    position: relative;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 100;
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1.1em;
+}
+
+.main_block01 h2 em{
+    display: inline-block;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+.main_block01 hr{
+    width: 100px;
+    color: #FFFFFF;
+}
+
+.main_block01 h3{
+    font-size: 26px;
+    margin-top: 53px;
+    margin-bottom: 45px;
+    position: relative;
+    text-align: center;
+    font-weight: 400;
+    color: #FFF;
+}
+
+.main_block01 .main_block01_btn {
+    position: relative;
+    width: 190px;
+    margin: auto;
+}

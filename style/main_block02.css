@@ -1,0 +1,98 @@
+.main_block02{
+    width: 100%;
+    height: 800px;
+    padding-bottom: 0;
+    background-position: bottom;
+    position: relative;
+    background: url(../images/main_block02/block02_bg.jpg) no-repeat;
+    background-attachment: fixed; /* 고정 */
+    background-size: cover;
+    word-break: keep-all;
+}
+
+.main_block02 h2{
+    padding-top: 112px;
+    color: #FFFFFF;
+    font-size: 42px;
+    font-weight: 100;
+    line-height: 1.1em;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+}
+
+.main_block02 h2 em{
+    display: inline-block;
+    font-weight: 900;
+}
+
+.main_block02 h3 {
+    height: 77px;
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: 200;
+    margin-top: 13px;
+    text-align: center;
+    font-family: '나눔스퀘어', NanumSquare, NS, '맑은 고딕', MalgunGothic, '돋움', Dotum;
+    line-height: 1.4em;
+    letter-spacing : -.1em;
+}
+
+.main_block02 hr{
+    width: 100px;
+    color: #FFFFFF;
+}
+
+.main_block02 .main_block02_con {
+    width: 100%;
+    margin-top: 106px;
+    background: url(../images/main_block02/block02_line.png) no-repeat center top;
+}
+
+.main_block02 .main_block02_con ul {
+    display: table;
+    width: 100%;
+    max-width: 975px;
+    margin: auto;
+}
+
+.main_block02 .main_block02_con ul li {
+    width: 33.33%;
+    height: 145px;
+    float: left;
+    text-align: center;
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.main_block02 .main_block02_con ul li a{
+    min-width: 105px;
+    padding-top: 121px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.main_block02 .main_block02_con ul li:nth-child(1) {
+    margin-top: 221px;
+}
+
+.main_block02 .main_block02_con ul li:nth-child(1) a{
+    background: url(../images/main_block02/block02_icon01.png) no-repeat center top;
+}
+
+.main_block02 .main_block02_con ul li:nth-child(2) {
+    margin-top: 163px;
+}
+
+.main_block02 .main_block02_con ul li:nth-child(2) a{
+    background: url(../images/main_block02/block02_icon02.png) no-repeat center top;
+}
+
+.main_block02 .main_block02_con ul li:nth-child(3) {
+    margin-top: 233px;
+}
+
+.main_block02 .main_block02_con ul li:nth-child(3) a{
+    background: url(../images/main_block02/block02_icon03.png) no-repeat center top;
+}
