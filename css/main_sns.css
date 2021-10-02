@@ -1,0 +1,47 @@
+.main_sns{
+    width: 100%;
+    max-width: 1180px;
+    height: 820px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.main_sns h2{
+    padding-top: 98px;
+    padding-bottom: 20px;
+    color: #3c3c3c;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.main_sns hr{
+    width: 50px;
+    color: #000000;
+}
+
+.main_sns p{
+    font-size: 22px;
+    margin-top: 10px;
+    text-align: center;
+    color: #3c3c3c;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.main_sns .sns_list {
+    padding: 34px 0 120px;
+    display: table;
+}
+
+.main_sns .sns_list li {
+    width: 19.83%;
+    margin: 0 0.08% 2px 0.08%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.main_sns .sns_list li img{
+    width: 234px;
+    height: 234px;
+}

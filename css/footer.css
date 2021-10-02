@@ -1,0 +1,73 @@
+footer {
+    width: 100%;
+    position: relative;
+    clear: both;
+    background: #262626;
+    text-align: center;
+}
+
+footer .bottom_util {
+    border-bottom: solid 1px #464646;
+    padding: 16px 0;
+}
+
+footer .bottom_util li {
+    display: inline-block;
+    margin: 3px 19px;
+}
+
+footer .bottom_util li a {
+    color: #818181;
+}
+
+footer .bottom_util li a em {
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+footer .bottom_ccm {
+    width: 100%;
+    margin-top: 30px;
+    position: absolute;
+    text-align: right;
+}
+
+footer .bottom_ccm span {
+    display: block;
+    width: 100%;
+    max-width: 1178px;
+    margin: auto;
+}
+
+footer .bottom_ccm img {
+    width: 170px;
+    height: auto;
+}
+
+footer .bottom_logo {
+    margin: 41px 0 24px;
+}
+
+footer .copy_info {
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    margin-bottom: 14px;
+    font-size: 12px;
+    color: #6c6c6c;
+}
+
+footer .copy_info span {
+    display: inline-block;
+    background: url(../images/footer/footer_line.gif) no-repeat right;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+footer .copy {
+    padding-bottom: 35px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #6c6c6c;
+}
