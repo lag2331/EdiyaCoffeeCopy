@@ -1,6 +1,6 @@
 .main_block03{
     max-width: 1180px;
-    height: 800px;
+    height: 760px;
     margin: 0 auto;
     padding-bottom: 0;
     background-position: bottom;
@@ -51,9 +51,24 @@
     height: auto;
 }
 
+.main_block03 .cl{
+    top: 270px;
+    left:0px;
+    transition: .5s;
+}
+
+.main_block03 .cl:hover{
+    top: 260px;
+}
+
 .main_block03 .lm{
     top: 350px;
     right:0px;
+    transition: .5s;
+}
+
+.main_block03 .lm:hover{
+    top: 340px;
 }
 
 .main_block03 a span{

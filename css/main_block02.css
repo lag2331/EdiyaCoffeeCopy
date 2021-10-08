@@ -73,6 +73,12 @@
     font-weight: 100;
 }
 
+
+.in_up:hover > a{
+    width:95px;
+    height:50px;
+}
+
 .main_block02 .main_block02_con ul li:nth-child(1) {
     margin-top: 221px;
 }

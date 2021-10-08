@@ -9,11 +9,12 @@ header{
 
 header .gnb_wrap{
     height: 47px;
+    display: flex;
+    justify-content: space-between;
 }
 
 header .global_menu{ /* 브랜드 사이트 */
     max-width: 375px;
-    display: flex;
     margin: 0;
     justify-content: space-between;
 }
@@ -21,6 +22,14 @@ header .global_menu{ /* 브랜드 사이트 */
 header .global_menu li {
     text-align: center;
     float: left;
+    margin-right: 17px;
+    padding-right: 18px;
+    background: url(../images/header/util_line.gif) no-repeat;
+    background-position: right;
+}
+
+header .global_menu li:nth-last-child(1){
+    background: none;
 }
 
 header .global_menu li a{
@@ -42,16 +51,43 @@ header .top_util li{
     float: left;
 }
 
-header .top_members{
-    display: flex;
+header .top_members li {
+    text-align: center;
+    float: left;
+    margin-right: 17px;
+    padding-right: 18px;
+    background: url(../images/header/util_line.gif) no-repeat;
+    background-position: right;
 }
 
-header .top_nav2{
-    padding-top: 10px;
-    display: flex;
-    justify-content: space-between;
+header .top_members li:nth-last-child(1){
+    background: none;
+    margin-right: 0;
 }
 
-header .top_nav2 a{
-    font-size: 16px;
+header .top_sns li {
+    text-align: center;
+    float: left;
+    margin-right: 6px;
 }
+
+header .language_tab a {
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    background: url(../images/common/language_arrow.gif) no-repeat 135px 10px;
+    padding-left: 20px;
+    color: #848484;
+}
+
+.drop_menu .nav_w{width:202px; height:20px; padding-top: 10px;}
+.drop_menu {width: 100%; margin-bottom: 20px; text-align: center; height: 40px; }
+.drop_menu:after {content: ""; display: block; clear: both; }
+.menu01 > li {float: left; width: 13%; line-height: 40px; }
+.menu01 span a {font-size: 16px;}
+            
+.sub {display: none; padding: 20px 0; /*border-bottom: 1px solid #ccc;*/}
+            
+#nop {float: none; }
+            
+.drop_none:after {content: ""; display: block; clear: both; }

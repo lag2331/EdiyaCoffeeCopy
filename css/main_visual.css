@@ -5,4 +5,5 @@
     margin: 0 auto;
     cursor: pointer;
     overflow: hidden;
+    z-index: 1;
 }
