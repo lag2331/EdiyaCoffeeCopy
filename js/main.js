@@ -51,10 +51,12 @@ $(document).ready(function(){
 
     $(document).on('mouseover', '.drop_menu span', function() {
         $('.sub').slideDown(300);
+        $('.sub_bg').slideDown(300);
     });
     $(document).on('mouseover', 'div', function () {
         if (!$(this).hasClass('drop_menu')) {
             $('.sub').slideUp(300);
+            $('.sub_bg').slideUp(300);
         }
     });
 
