@@ -60,9 +60,15 @@
     height: 145px;
     float: left;
     text-align: center;
-    animation-name: fadeInUp;
-    animation-duration: 1s;
-    animation-fill-mode: both;
+}
+
+.main_block02 .main_block02_con ul li a{
+    transition: all 1s ease-in;
+    opacity: 0;
+}
+
+.main_block02 .main_block02_con ul li.appear a{
+    opacity: 1;
 }
 
 .main_block02 .main_block02_con ul li a{
@@ -73,10 +79,13 @@
     font-weight: 100;
 }
 
-
 .in_up:hover > a{
     width:95px;
     height:50px;
+}
+
+.in_up.appear{
+    display: block;
 }
 
 .main_block02 .main_block02_con ul li:nth-child(1) {

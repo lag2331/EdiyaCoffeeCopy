@@ -47,28 +47,30 @@
 }
 
 .main_block03 div a img{
-    width: 100%;
-    height: auto;
+    width: 630px;
+    height: 640px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.main_block03 div a img:hover{
+    transform: scale(1.1);
 }
 
 .main_block03 .cl{
     top: 270px;
     left:0px;
-    transition: .5s;
 }
 
-.main_block03 .cl:hover{
-    top: 260px;
+.main_block03 .cl a{
+    width: 100%;
+    overflow: hidden;
 }
 
 .main_block03 .lm{
     top: 350px;
     right:0px;
-    transition: .5s;
-}
-
-.main_block03 .lm:hover{
-    top: 340px;
+    transition: all .5s ease-in;
 }
 
 .main_block03 a span{

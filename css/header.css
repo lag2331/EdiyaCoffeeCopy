@@ -7,6 +7,19 @@ header{
     z-index: 999;
 }
 
+header.top_nav-dark{
+    height: 60px;
+    padding: 0;
+}
+
+header.top_nav-dark .gnb_wrap{
+    display: none;
+}
+
+header.top_nav-dark .drop_menu{
+    margin: 10px 0;
+}
+
 header .gnb_wrap{
     max-width: 1180px;
     height: 47px;
@@ -119,7 +132,7 @@ header .language_tab a {
 .menu01 > li a:hover{
     color:#848484;
 }
-            
+
 .sub {
     display: none;
     padding: 20px 0;
@@ -135,14 +148,14 @@ header .language_tab a {
     background-color: #FFFFFF;
     position: absolute;
     width: 100%;
-    margin-top: 60px;
+    margin-top: 50px;
     height: 300px;
 }
-            
+
 #nop {
     float: none;
 }
-            
+
 .drop_none:after {
     content: "";
     display: block;
